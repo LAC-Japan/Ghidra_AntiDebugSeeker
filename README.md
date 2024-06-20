@@ -1,1 +1,16 @@
 # Ghidra_AntiDebugSeeker
+
+## Introduction
+
+Through this tool, users can automatically extract potential anti-debugging methods used by malware, making it easier for analysts to take appropriate action.  
+
+The main functionalities of this plugin are as follows:
+
+- Extraction of Windows API that are potentially being used for anti-debugging by the malware  
+  (All subsequent API represent the Windows API)  
+- In addition to API, extraction of anti-debugging techniques based on key phrases that serve as triggers, as some anti-debugging methods cannot be comprehensively identified by API calls alone.
+
+Additionally, the file that defines the detection rules is designed to easily add keywords you want to detect.  
+This allows analysts to easily add new detection rules or make changes.  
+  
+For packed malware, running this plugin after unpacking and fixing the Import Address Table is more effective.
