@@ -2,6 +2,9 @@
 
 ## Introduction
 
+This tool is the Ghidra version of [AntiDebugSeeker](https://github.com/LAC-Japan/IDA_Plugin_AntiDebugSeeker).  
+It can be used in two ways: as a Ghidra Script and as a module.  
+
 Through this tool, users can automatically extract potential anti-debugging methods used by malware, making it easier for analysts to take appropriate action.  
 
 The main functionalities of this plugin are as follows:
