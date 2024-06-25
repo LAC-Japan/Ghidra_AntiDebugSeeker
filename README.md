@@ -1,5 +1,7 @@
 # Ghidra_AntiDebugSeeker
 
+(pictures/Ghidra_AntiDebugSeeker_icon.png)
+
 ## Introduction
 
 This tool is the Ghidra version of [AntiDebugSeeker](https://github.com/LAC-Japan/IDA_Plugin_AntiDebugSeeker).  
