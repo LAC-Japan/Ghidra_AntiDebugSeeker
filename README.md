@@ -1,6 +1,6 @@
 # Ghidra_AntiDebugSeeker
 
-(pictures/Ghidra_AntiDebugSeeker_icon.png)
+![](pictures/Ghidra_AntiDebugSeeker_icon.png)
 
 ## Introduction
 
