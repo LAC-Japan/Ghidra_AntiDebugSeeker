@@ -52,6 +52,29 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   which contains the descriptions of the detection rules, and click Open.  
   A progress bar is displayed alongside a moving dragon.  
   When the analysis is complete, "Analysis Complete" will be displayed.  
-  The detection results can be checked from the GUI interface TextArea or Bookmarks.  
+  The detection results can be checked from the GUI interface TextArea or Bookmarks.   
+
+  ## Verifying the results (Ghidra Script + Module Extension)  
+
+  Ghidra Script: Check Console-Scripting  
+    The results of the detection can be checked from the Console - Scripting screen.   
+    When AntiDebugSeeker Process Finished" is displayed, it signals that the process has completed.  
+
+  Ghidra Module Extension : Check Text Area  
+    The results of the detection can be checked from Text Area.  
+    When AntiDebugSeeker Process Finished" is displayed, it signals that the process has completed.  
+    
+    Display only the detection results Button  
+     You can display only the detected results from the outcomes shown by pressing the Start Analyze button.  
+     
+    Detected Function List Button  
+     From the results of either the Start Analyze button or the Display only the detection results button, the outcomes are displayed grouped by function.  
+     It becomes easier for the user to understand from which function to start checking.  
+
+  Ghidra Script / Module Extension : Check Bookmarks  
+
+    Detection results in the Anti Debug API section defined in anti_debug_Ghidra.config.  
+    Detection results in the Anti Debug Technique section defined in anti_debug_Ghidra.config.  
+    You can check where all the keywords are being detected.  
 
   
