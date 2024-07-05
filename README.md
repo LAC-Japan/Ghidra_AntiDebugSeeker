@@ -64,15 +64,15 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   The results of the detection can be checked from Text Area.  
   When AntiDebugSeeker Process Finished" is displayed, it signals that the process has completed.  
 
-  Display only the detection results Button
+  Display only the detection results Button  
   You can display only the detected results from the outcomes shown by pressing the Start Analyze button.
      
-  Detected Function List Button
-  From the results of either the Start Analyze button or the Display only the detection results button, the outcomes are displayed grouped by function.
-  It becomes easier for the user to understand from which function to start checking.
+  Detected Function List Button  
+  From the results of either the Start Analyze button or the Display only the detection results button, the outcomes are displayed grouped by function.  
+  It becomes easier for the user to understand from which function to start checking.  
 
-  Ghidra Script / Module Extension : Check Bookmarks
-  Detection results in the Anti Debug API section defined in anti_debug_Ghidra.config .
-  Detection results in the Anti Debug Technique section defined in anti_debug_Ghidra.config .
-  You can check where all the keywords are being detected.
+  Ghidra Script / Module Extension : Check Bookmarks  
+  Detection results in the Anti Debug API section defined in anti_debug_Ghidra.config .  
+  Detection results in the Anti Debug Technique section defined in anti_debug_Ghidra.config .  
+  You can check where all the keywords are being detected.  
   
