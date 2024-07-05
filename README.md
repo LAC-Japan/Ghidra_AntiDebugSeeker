@@ -19,3 +19,10 @@ Additionally, the file that defines the detection rules is designed to easily ad
 This allows analysts to easily add new detection rules or make changes.  
   
 For packed malware, running this plugin after unpacking and fixing the Import Address Table is more effective.
+
+## Files Required to RUN the Program  
+
+ 1. AntiDebugSeeker.java (For Ghidra : Ghidra Script Version)
+     Zip Folder containing the compiled files including AntiDebugSeekerPlugin.java (For Ghidra : Ghidra Module Extension)
+ 2. anti_debug_Ghidra.config (Converted for Ghidra : A file containing rules for detecting anti-debugging techniques)
+ 3. anti_debug_techniques_descriptions_Ghidra.json (Converted for Ghidra : A file containing descriptions of the detected rules)
