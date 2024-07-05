@@ -60,7 +60,7 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
     The results of the detection can be checked from the Console - Scripting screen.   
     When AntiDebugSeeker Process Finished" is displayed, it signals that the process has completed.  
 
- Ghidra Module Extension : Check Text Area  
+  Ghidra Module Extension : Check Text Area  
     The results of the detection can be checked from Text Area.  
     When AntiDebugSeeker Process Finished" is displayed, it signals that the process has completed.  
     
