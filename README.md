@@ -39,7 +39,8 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
 
 ## Ghidra Module Extension How to Setup and Execute
 
-Initial Setup
+***Initial Setup***  
+
   File > Configure > Check Examples > Click Configure > Check AntiDebugSeekerPlugin > Click Ok  
   
   How to Execute
