@@ -68,7 +68,8 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   You can display only the detected results from the outcomes shown by pressing the Start Analyze button.
      
   Detected Function List Button  
-  From the results of either the Start Analyze button or the Display only the detection results button, the outcomes are displayed grouped by function.  
+  From the results of either the Start Analyze button or the Display only the detection results button,  
+  the outcomes are displayed grouped by function.  
   It becomes easier for the user to understand from which function to start checking.  
 
   Ghidra Script / Module Extension : Check Bookmarks  
