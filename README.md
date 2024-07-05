@@ -65,7 +65,7 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   When AntiDebugSeeker Process Finished" is displayed, it signals that the process has completed.  
 
   Display only the detection results Button  
-   You can display only the detected results from the outcomes shown by pressing the Start Analyze button.
+  &nbsp;You can display only the detected results from the outcomes shown by pressing the Start Analyze button.
      
   Detected Function List Button  
   From the results of either the Start Analyze button or the Display only the detection results button,  
