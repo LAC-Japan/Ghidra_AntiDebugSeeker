@@ -61,6 +61,8 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   When the analysis is complete, "Analysis Complete" will be displayed.  
   The detection results can be checked from the GUI interface TextArea or Bookmarks.  
 
+  ![AntiDebugSeeker](Ghidra_AntiDebugSeeker.gif)
+
   ## Verifying the results (Ghidra Script + Module Extension)  
 
   Ghidra Script: Check Console-Scripting  
