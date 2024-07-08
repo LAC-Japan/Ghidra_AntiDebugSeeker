@@ -64,13 +64,11 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
 ***The GUI interface launches.***  
   
   "Select the Config File" is displayed, so specify the anti_debug_Ghidra.config that defines the detection rules, then click Open.  
-
-  ![How_to_setup_and_Execute_module_5](pictures/How_to_setup_and_Execute_module_5.png) 
   
   "Select the JSON Description File" is displayed, so specify the anti_debug_technique_descriptions_Ghidra.json,   
   which contains the descriptions of the detection rules, and click Open.  
 
-  ![How_to_setup_and_Execute_module_6](pictures/How_to_setup_and_Execute_module_6.png) 
+  ![How_to_setup_and_Execute_module_5](pictures/How_to_setup_and_Execute_module_5.png)   
   
   A progress bar is displayed alongside a moving dragon.  
   When the analysis is complete, "Analysis Complete" will be displayed.  
