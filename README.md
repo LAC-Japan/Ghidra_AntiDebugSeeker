@@ -1,9 +1,6 @@
 # Ghidra_AntiDebugSeeker  
 
 ![](pictures/Ghidra_AntiDebugSeeker_icon.png)  
-<p align="center">
-  <img src="pictures/Ghidra_AntiDebugSeeker.gif" alt="AntiDebugSeeker" width="800"/>
-</p>
 
 ## Introduction
 
@@ -22,6 +19,10 @@ Additionally, the file that defines the detection rules is designed to easily ad
 This allows analysts to easily add new detection rules or make changes.  
   
 For packed malware, running this plugin after unpacking and fixing the Import Address Table is more effective.
+
+<p align="center">
+  <img src="pictures/Ghidra_AntiDebugSeeker.gif" alt="AntiDebugSeeker" width="600"/>
+</p>
 
 ## Files Required to Run the Program  
 
