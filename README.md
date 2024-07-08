@@ -108,7 +108,11 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
 
   ## Ghidra Script / Module Extension : Detected Keywords Color
     
-  Items detected by the Anti Debug API will have a green background color, and the rule name will be set as a PRE comment. 
+  Items detected by the Anti Debug API will have a green background color, and the rule name will be set as a PRE comment.  
+
+  ![Detected_Keywords_1](pictures/Detected_Keywords_1.png) 
     
   Items detected by the Anti Debug Technique will have an orange background color, and the rule name will be set as a PRE comment.   
   The details of the rule will be displayed as a POST comment from the data of the loaded JSON file.  
+
+  ![Detected_Keywords_2](pictures/Detected_Keywords_2.png)
