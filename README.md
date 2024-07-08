@@ -58,6 +58,8 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   ![How_to_setup_and_Execute_module_3](pictures/How_to_setup_and_Execute_module_3.png)  
   
   Click Start Analyze Button  
+
+  ![How_to_setup_and_Execute_module_4](pictures/How_to_setup_and_Execute_module_4.png) 
   
 ***The GUI interface launches.***  
   
