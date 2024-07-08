@@ -1,6 +1,9 @@
 # Ghidra_AntiDebugSeeker  
 
 ![](pictures/Ghidra_AntiDebugSeeker_icon.png)  
+<p align="center">
+  <img src="pictures/Ghidra_AntiDebugSeeker.gif" alt="AntiDebugSeeker" width="800"/>
+</p>
 
 ## Introduction
 
@@ -60,10 +63,6 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   A progress bar is displayed alongside a moving dragon.  
   When the analysis is complete, "Analysis Complete" will be displayed.  
   The detection results can be checked from the GUI interface TextArea or Bookmarks.  
-
-<p align="center">
-  <img src="pictures/Ghidra_AntiDebugSeeker.gif" alt="AntiDebugSeeker" width="800"/>
-</p>
 
   ## Verifying the results (Ghidra Script + Module Extension)  
 
