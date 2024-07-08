@@ -45,10 +45,13 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
 
   ![How_to_setup_and_Execute_module](pictures/How_to_setup_and_Execute_module.png)
   
-  How to Execute  
+***How to Execute***  
+
   Window > AntiDebugSeekerPlugin  
   Click Start Analyze Button  
-  ***The GUI interface launches.***  
+  
+***The GUI interface launches.***  
+  
   "Select the Config File" is displayed, so specify the anti_debug_Ghidra.config that defines the detection rules, then click Open.  
   "Select the JSON Description File" is displayed, so specify the anti_debug_technique_descriptions_Ghidra.json,   
   which contains the descriptions of the detection rules, and click Open.  
