@@ -27,8 +27,10 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
 ## Files Required to Run the Program  
 
  1. AntiDebugSeeker.java (Ghidra Script)/    
-    ghidra_11.0.1_AntiDebugSeeker.zip (Zip Folder containing the compiled files including AntiDebugSeekerPlugin.java : Ghidra Module Extension)  
+    ghidra_11.0.1_AntiDebugSeeker.zip (Zip Folder containing the compiled files including AntiDebugSeekerPlugin.java : Ghidra Module Extension)
+    
  2. anti_debug_Ghidra.config (Converted for Ghidra : A file containing rules for detecting anti-debugging techniques)
+  
  3. anti_debug_techniques_descriptions_Ghidra.json (Converted for Ghidra : A file containing descriptions of the detected rules)
 
 ## Ghidra Script How to Run
