@@ -62,7 +62,7 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   The detection results can be checked from the GUI interface TextArea or Bookmarks.  
 
 <p align="center">
-  <img src="pictures/Ghidra_AntiDebugSeeker.gif" alt="AntiDebugSeeker" width="600"/>
+  <img src="pictures/Ghidra_AntiDebugSeeker.gif" alt="AntiDebugSeeker" width="800"/>
 </p>
 
   ## Verifying the results (Ghidra Script + Module Extension)  
