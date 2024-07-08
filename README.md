@@ -89,11 +89,15 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
 
   &nbsp;&nbsp;*Display only the detection results Button  
   &nbsp;&nbsp;&nbsp;&nbsp;You can display only the detected results from the outcomes shown by pressing the Start Analyze button.
+
+  ![Verifing_the_results_1](pictures/Verifing_the_results_1.png)   
      
   &nbsp;&nbsp;*Detected Function List Button  
   &nbsp;&nbsp;&nbsp;&nbsp;From the results of either the Start Analyze button or the Display only the detection results button,  
   &nbsp;&nbsp;&nbsp;&nbsp;the outcomes are displayed grouped by function.  
   &nbsp;&nbsp;&nbsp;&nbsp;It becomes easier for the user to understand from which function to start checking.  
+
+  ![Verifing_the_results_2](pictures/Verifing_the_results_2.png) 
 
   Ghidra Script / Module Extension : Check Bookmarks  
   &nbsp;&nbsp;Detection results in the Anti Debug API section defined in anti_debug_Ghidra.config .  
