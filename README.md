@@ -104,6 +104,8 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   &nbsp;&nbsp;Detection results in the Anti Debug Technique section defined in anti_debug_Ghidra.config .  
   &nbsp;&nbsp;You can check where all the keywords are being detected.  
 
+  ![Verifing_the_results_3](pictures/Verifing_the_results_3.png) 
+
   ## Ghidra Script / Module Extension : Detected Keywords Color
     
   Items detected by the Anti Debug API will have a green background color, and the rule name will be set as a PRE comment. 
