@@ -72,6 +72,9 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   
   A progress bar is displayed alongside a moving dragon.  
   When the analysis is complete, "Analysis Complete" will be displayed.  
+
+  ![How_to_setup_and_Execute_module_6](pictures/How_to_setup_and_Execute_module_6.png)   
+  
   The detection results can be checked from the GUI interface TextArea or Bookmarks.  
 
   ## Verifying the results (Ghidra Script + Module Extension)  
