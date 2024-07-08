@@ -42,8 +42,10 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
 ***Initial Setup***  
 
   File > Configure > Check Examples > Click Configure > Check AntiDebugSeekerPlugin > Click Ok  
+
+  ![How_to_setup_and_Execute_module](pictures/How_to_setup_and_Execute_module.png)
   
-  How to Execute
+  How to Execute  
   Window > AntiDebugSeekerPlugin  
   Click Start Analyze Button  
   ***The GUI interface launches.***  
@@ -53,8 +55,6 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   A progress bar is displayed alongside a moving dragon.  
   When the analysis is complete, "Analysis Complete" will be displayed.  
   The detection results can be checked from the GUI interface TextArea or Bookmarks.  
-
-  ![How_to_setup_and_Execute_module](pictures/How_to_setup_and_Execute_module.png)
 
   ## Verifying the results (Ghidra Script + Module Extension)  
 
