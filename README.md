@@ -54,6 +54,9 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
 ***How to Execute***  
 
   Window > AntiDebugSeekerPlugin  
+
+  ![How_to_setup_and_Execute_module_3](pictures/How_to_setup_and_Execute_module_3.png)  
+  
   Click Start Analyze Button  
   
 ***The GUI interface launches.***  
