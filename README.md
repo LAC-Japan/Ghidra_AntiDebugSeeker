@@ -43,7 +43,9 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
 
   File > Configure > Check Examples > Click Configure > Check AntiDebugSeekerPlugin > Click Ok  
 
-  ![How_to_setup_and_Execute_module](pictures/How_to_setup_and_Execute_module.png)
+  ![How_to_setup_and_Execute_module_1](pictures/How_to_setup_and_Execute_module_1.png)  
+
+  ![How_to_setup_and_Execute_module_2](pictures/How_to_setup_and_Execute_module_2.png)  
   
 ***How to Execute***  
 
