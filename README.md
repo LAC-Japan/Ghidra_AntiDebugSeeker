@@ -52,7 +52,9 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   which contains the descriptions of the detection rules, and click Open.  
   A progress bar is displayed alongside a moving dragon.  
   When the analysis is complete, "Analysis Complete" will be displayed.  
-  The detection results can be checked from the GUI interface TextArea or Bookmarks.   
+  The detection results can be checked from the GUI interface TextArea or Bookmarks.  
+
+  ![How_to_setup_and_Execute_module](picture/How_to_setup_and_Execute_module.png)
 
   ## Verifying the results (Ghidra Script + Module Extension)  
 
