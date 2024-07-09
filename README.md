@@ -118,3 +118,56 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   The details of the rule will be displayed as a POST comment from the data of the loaded JSON file.  
 
   ![Detected_Keywords_2](pictures/Detected_Keywords_2.png)
+
+  ## List of detectable anti-debugging techniques (Ver1.0)  
+
+The following is a list of rule names defined in the Anti_Debug_Technique section of the antidebug_Ghidra.config.  
+
+VMware_I/O_port  
+VMware_magic_value  
+HeapTailMarker  
+KernelDebuggerMarker  
+DbgBreakPoint_RET  
+DbgUiRemoteBreakin_Debugger_Terminate  
+PMCCheck_RDPMC  
+TimingCheck_RDTSC  
+SkipPrefixes_INT1  
+INT2D_interrupt_check  
+INT3_interrupt_check  
+EXCEPTION_BREAKPOINT  
+ICE_interrupt_check  
+DBG_PRINTEXCEPTION_C  
+TrapFlag_SingleStepException  
+BeingDebugged_check  
+NtGlobalFlag_check  
+NtGlobalFlag_check_2  
+HeapFlags  
+HeapForceFlags  
+Combination_of_HEAP_Flags  
+Combination_of_HEAP_Flags_2  
+ReadHeapFlags  
+ReadHeapFlags_2  
+DebugPrivileges_Check
+CreateMutex_AlreadyExist  
+CreateEvent_AlreadyExist  
+Opened_Exclusively_Check  
+EXCEPTION_INVALID_HANDLE_1  
+EXCEPTION_INVALID_HANDLE_2  
+Memory_EXECUTE_READWRITE_1  
+Memory_EXECUTE_READWRITE_2  
+Memory_Region_Tracking  
+Check_BreakPoint_Memory_1  
+Check_BreakPoint_Memory_2  
+Software_Breakpoints_Check  
+Hardware_Breakpoints_Check  
+ChildProcess_Check  
+Enumerate_Running_Processes  
+ThreadHideFromDebugger  
+NtQueryInformationProcess_PDPort  
+NtQueryInformationProcess_PDFlags  
+NtQueryInformationProcess_PDObjectHandle  
+NtQuerySystemInformation_KD_Check  
+Extract_Resource_Section  
+Commucate_function_String  
+Commucate_function  
+
