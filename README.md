@@ -111,11 +111,11 @@ The values defined in this file can be referenced on the disassembly screen, all
 
   ## Verifying the results (Ghidra Script + Module Extension)  
 
-  Ghidra Script: Check Console-Scripting  
+  - Ghidra Script: Check Console-Scripting  
   &nbsp;&nbsp;The results of the detection can be checked from the Console - Scripting screen.   
   &nbsp;&nbsp;When AntiDebugSeeker Process Finished" is displayed, it signals that the process has completed.  
 
-  Ghidra Module Extension : Check Text Area  
+  - Ghidra Module Extension : Check Text Area  
   &nbsp;&nbsp;The results of the detection can be checked from Text Area.  
   &nbsp;&nbsp;When AntiDebugSeeker Process Finished" is displayed, it signals that the process has completed.  
 
@@ -131,7 +131,7 @@ The values defined in this file can be referenced on the disassembly screen, all
 
   ![Verifing_the_results_2](pictures/Verifing_the_results_2.png) 
 
-  Ghidra Script / Module Extension : Check Bookmarks  
+  - Ghidra Script / Module Extension : Check Bookmarks  
   &nbsp;&nbsp;Detection results in the Anti Debug API section defined in anti_debug_Ghidra.config .  
   &nbsp;&nbsp;Detection results in the Anti Debug Technique section defined in anti_debug_Ghidra.config .  
   &nbsp;&nbsp;You can check where all the keywords are being detected.  
