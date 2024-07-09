@@ -33,7 +33,7 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   
  3. anti_debug_techniques_descriptions_Ghidra.json (Converted for Ghidra : A file containing descriptions of the detected rules)
 
-## anti_debug_Ghidra.config
+## anti_debug_Ghidra.config and anti_debug_techniques_descriptions_Ghidra.json 
 
 This config file contains the detection rules that are utilized by AntiDebugSeeker.py.  
 There are sections named Anti_Debug_API and Anti_Debug_Technique.  
@@ -57,7 +57,9 @@ The same process is then applied for searching for the third keyword.
 If you want to set a **custom search range** instead of using the default value, you can specify 'search_range=value' at the end of the keyword you've set.  
 This allows you to change the search range for each rule you've configured.
 
-<img src="pictures/Custom_SearchRange.png" alt="AntiDebugTechnique_Search_Range" width="380"/>
+<img src="pictures/Custom_SearchRange.png" alt="AntiDebugTechnique_Search_Range" width="380"/>  
+
+anti_debug_techniques_descriptions.json contains the descriptions of the rules defined in the Anti_Debug_Technique section.  
 
 ## Ghidra Script How to Run
 
