@@ -119,9 +119,9 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
 
   ![Detected_Keywords_2](pictures/Detected_Keywords_2.png)
 
-  ## List of detectable anti-debugging techniques (Ver1.0)  
+  ## List of detectable anti-debugging techniques  
 
-The following is a list of rule names defined in the Anti_Debug_Technique section of the antidebug_Ghidra.config.  
+The following is a list of rule names defined in the Anti_Debug_Technique section of the anti_debug_Ghidra.config.  
 
 VMware_I/O_port  
 VMware_magic_value  
