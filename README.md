@@ -33,7 +33,7 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   
  3. anti_debug_techniques_descriptions_Ghidra.json (Converted for Ghidra : A file containing descriptions of the detected rules)
 
-## About anti_debug.config
+## About anti_debug_Ghidra.config
 
 This config file contains the detection rules that are utilized by AntiDebugSeeker.py.  
 There are sections named Anti_Debug_API and Anti_Debug_Technique.  
