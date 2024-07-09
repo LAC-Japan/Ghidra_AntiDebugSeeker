@@ -124,10 +124,10 @@ The values defined in this file can be referenced on the disassembly screen, all
 
   ![Verifing_the_results_1](pictures/Verifing_the_results_1.png)  
   &nbsp;&nbsp;  
-  &nbsp;&nbsp;&nbsp;&nbsp;**Detected Function List Button**  
-  &nbsp;&nbsp;&nbsp;&nbsp;From the results of either the Start Analyze button or the Display only the detection results button,  
-  &nbsp;&nbsp;&nbsp;&nbsp;the outcomes are displayed grouped by function.  
-  &nbsp;&nbsp;&nbsp;&nbsp;It becomes easier for the user to understand from which function to start checking.  
+  **Detected Function List Button**  
+  From the results of either the Start Analyze button or the Display only the detection results button,  
+  the outcomes are displayed grouped by function.  
+  It becomes easier for the user to understand from which function to start checking.  
 
   ![Verifing_the_results_2](pictures/Verifing_the_results_2.png) 
 
