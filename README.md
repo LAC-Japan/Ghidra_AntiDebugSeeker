@@ -60,6 +60,7 @@ This allows you to change the search range for each rule you've configured.
 <img src="pictures/Custom_SearchRange.png" alt="AntiDebugTechnique_Search_Range" width="380"/>  
 
 anti_debug_techniques_descriptions.json contains the descriptions of the rules defined in the Anti_Debug_Technique section.  
+The values defined in this file can be referenced on the disassembly screen, allowing you to check the descriptions of the rules.  
 
 <img src="pictures/anti_debug_techniques_descriptions.png" alt="anti_debug_techniques_descriptions" width="600"/>
 
