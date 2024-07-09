@@ -61,7 +61,7 @@ This allows you to change the search range for each rule you've configured.
 
 anti_debug_techniques_descriptions.json contains the descriptions of the rules defined in the Anti_Debug_Technique section.  
 
-![anti_debug_techniques_descriptions](pictures/anti_debug_techniques_descriptions.png)  
+<img src="pictures/anti_debug_techniques_descriptions.png" alt="anti_debug_techniques_descriptions" width="300"/>
 
 ## Ghidra Script How to Run
 
