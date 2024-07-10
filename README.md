@@ -96,7 +96,6 @@ The values defined in this file can be referenced on the disassembly screen, all
 **The GUI interface launches.**  
   
   "Select the Config File" is displayed, so specify the anti_debug_Ghidra.config that defines the detection rules, then click Open.  
-  
   "Select the JSON Description File" is displayed, so specify the anti_debug_technique_descriptions_Ghidra.json,   
   which contains the descriptions of the detection rules, and click Open.  
 
