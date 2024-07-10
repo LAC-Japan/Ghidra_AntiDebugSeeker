@@ -75,7 +75,7 @@ The values defined in this file can be referenced on the disassembly screen, all
 
 ## Ghidra Module Extension How to Setup and Execute
 
-***Initial Setup***  
+**Initial Setup**  
 
   File > Configure > Check Examples > Click Configure > Check AntiDebugSeekerPlugin > Click Ok  
 
@@ -83,7 +83,7 @@ The values defined in this file can be referenced on the disassembly screen, all
 
   ![How_to_setup_and_Execute_module_2](pictures/How_to_setup_and_Execute_module_2.png)  
   
-***How to Execute***  
+**How to Execute**  
 
   Window > AntiDebugSeekerPlugin  
 
@@ -93,7 +93,7 @@ The values defined in this file can be referenced on the disassembly screen, all
 
   ![How_to_setup_and_Execute_module_4](pictures/How_to_setup_and_Execute_module_4.png) 
   
-***The GUI interface launches.***  
+**The GUI interface launches.**  
   
   "Select the Config File" is displayed, so specify the anti_debug_Ghidra.config that defines the detection rules, then click Open.  
   
