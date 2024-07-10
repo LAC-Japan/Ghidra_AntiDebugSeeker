@@ -128,10 +128,10 @@ The values defined in this file can be referenced on the disassembly screen, all
 
   ![Verifing_the_results_2](pictures/Verifing_the_results_2.png) 
 
-  - Ghidra Script / Module Extension : Check Bookmarks  
-  &nbsp;&nbsp;Detection results in the Anti Debug API section defined in anti_debug_Ghidra.config .  
-  &nbsp;&nbsp;Detection results in the Anti Debug Technique section defined in anti_debug_Ghidra.config .  
-  &nbsp;&nbsp;You can check where all the keywords are being detected.  
+  - **Ghidra Script / Module Extension : Check Bookmarks**  
+  Detection results in the Anti Debug API section defined in anti_debug_Ghidra.config.  
+  Detection results in the Anti Debug Technique section defined in anti_debug_Ghidra.config.  
+  You can check where all the keywords are being detected.  
 
   ![Verifing_the_results_3](pictures/Verifing_the_results_3.png) 
 
