@@ -129,14 +129,13 @@ The values defined in this file can be referenced on the disassembly screen, all
 
   ![Verifing_the_results_2](pictures/Verifing_the_results_2.png) 
 
-  - **Ghidra Script / Module Extension : Check Bookmarks**  
-  Detection results in the Anti Debug API section defined in anti_debug_Ghidra.config.  
-  Detection results in the Anti Debug Technique section defined in anti_debug_Ghidra.config.  
-  You can check where all the keywords are being detected.  
+  - **Ghidra Script / Module Extension : Check Bookmarks**   
+  You can check where all the keywords are being detected.
+  
 
   ![Verifing_the_results_3](pictures/Verifing_the_results_3.png) 
 
-  ## Ghidra Script / Module Extension : Detected Keywords Color
+  ## Ghidra Script / Module Extension : Detected Keywords Color and PRE,POST Comment
     
   Items detected by the Anti Debug API will have a green background color, and the rule name will be set as a PRE comment.  
 
