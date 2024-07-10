@@ -115,8 +115,9 @@ The values defined in this file can be referenced on the disassembly screen, all
   &nbsp;&nbsp;The results of the detection can be checked from the Console - Scripting screen.   
   &nbsp;&nbsp;When AntiDebugSeeker Process Finished" is displayed, it signals that the process has completed.  
 
-  Ghidra Module Extension : Check Text Area  
-  - **Display only the detection results Button** : You can display only the detected results from the outcomes shown by pressing the Start Analyze button.     
+  **Ghidra Module Extension : Check Text Area**  
+  - **Display only the detection results Button**  
+    You can display only the detected results from the outcomes shown by pressing the Start Analyze button.     
 
   ![Verifing_the_results_1](pictures/Verifing_the_results_1.png)  
     
