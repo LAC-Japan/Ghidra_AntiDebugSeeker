@@ -574,7 +574,6 @@ public class AntiDebugSeekerPlugin extends ProgramPlugin {
                 Address startAddress = cu.getAddress();
                 boolean directSearchSuccess = false;
 
-                // Direct search within range for the second and possibly third keywords
                 if (secondKeyword != null && SearchKeywordWithinRange(startAddress, secondKeyword, ruleData.searchRange, program)) {
                     Address SecondKeywordAddress = Where_is_Keyword(startAddress, secondKeyword, ruleData.searchRange, program);
 
@@ -598,7 +597,6 @@ public class AntiDebugSeekerPlugin extends ProgramPlugin {
                         setComment(startAddress, ruleName, program);
                         String description = ruleDescriptions.get(ruleName);
                         if (description != null) {
-                            // Set the POST comment with the description from the JSON file
                             addPostComment(startAddress, description, program);
                         } 
                     }
