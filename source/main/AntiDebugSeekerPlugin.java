@@ -291,7 +291,7 @@ public class AntiDebugSeekerPlugin extends ProgramPlugin {
 		} catch (Exception e) {
 			program.endTransaction(transactionID, false);
 			log.appendMsg("Failed to load JSON content: " + e.getMessage());
-			// Return false to indicate failure
+			
 			StringWriter sw = new StringWriter();
 		    PrintWriter pw = new PrintWriter(sw);
 		    e.printStackTrace(pw);
@@ -596,7 +596,6 @@ public class AntiDebugSeekerPlugin extends ProgramPlugin {
                         
                         directSearchSuccess = true;
                         setComment(startAddress, ruleName, program);
-                        // Get the description for this ruleName from the JSON descriptions map
                         String description = ruleDescriptions.get(ruleName);
                         if (description != null) {
                             // Set the POST comment with the description from the JSON file
