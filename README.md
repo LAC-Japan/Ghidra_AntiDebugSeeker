@@ -74,7 +74,7 @@ The values defined in this file can be referenced on the disassembly screen, all
   After selecting the config file, a message saying "Select the JSON Description File" is displayed,  
   so specify the anti_debug_technique_descriptions_Ghidra.json, which contains the descriptions of the detection rules, and click Open.  
 
-## Ghidra Module Extension How to Setup and Execute
+## Ghidra Extension How to Setup and Execute
 
 **Initial Setup**  
 
