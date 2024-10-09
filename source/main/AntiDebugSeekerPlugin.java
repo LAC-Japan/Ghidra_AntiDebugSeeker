@@ -155,40 +155,68 @@ public class AntiDebugSeekerPlugin extends ProgramPlugin {
 		
 		public void detectedFunctionsList() {
 		    String content = textArea.getText();
-		    Map<String, List<String>> functionMap = new LinkedHashMap<>();
+		    Map<String, Map<String, List<String>>> functionMap = new LinkedHashMap<>();
 
-		    Pattern pattern = Pattern.compile(
-		        "(.*?) API found\\.\\s*(\\b[0-9A-Fa-f]{8}\\b) in function (\\b\\w+\\b)|" +
-		        "Found Single keyword Rule '(.*?)' at (\\b[0-9A-Fa-f]{8}\\b) in function (\\b\\w+\\b)|" +
+		    Pattern apiPattern = Pattern.compile("(\\w+) API found\\.");
+		    Pattern addressPattern = Pattern.compile("\\s+(\\b[0-9A-Fa-f]{8}\\b) in function (\\b\\w+\\b)");
+		    Pattern singleKeywordPattern = Pattern.compile(
+		        "Found Single keyword Rule '(.*?)' at (\\b[0-9A-Fa-f]{8}\\b) in function (\\b\\w+\\b)"
+		    );
+		    Pattern keywordGroupPattern = Pattern.compile(
 		        "Keyword group (.*?) found starting at: (\\b[0-9A-Fa-f]{8}\\b).*?In function (\\b\\w+\\b)"
 		    );
-		    Matcher matcher = pattern.matcher(content);
 
-		    while (matcher.find()) {
-		        String functionName;
-		        String apiAndAddress;
+		    Matcher apiMatcher = apiPattern.matcher(content);
 
-		        if (matcher.group(1) != null) {
-		            
-		            functionName = matcher.group(3);
-		            apiAndAddress = matcher.group(1) + " : " + matcher.group(2);
-		        } else if (matcher.group(4) != null) {
-		            functionName = matcher.group(6);
-		            apiAndAddress = matcher.group(4) + " : " + matcher.group(5);
-		        } else {
-		            
-		            functionName = matcher.group(9);
-		            apiAndAddress = matcher.group(7) + " : " + matcher.group(8);
+		    while (apiMatcher.find()) {
+		        String apiName = apiMatcher.group(1);  
+		        int apiEnd = apiMatcher.end();  
+		        int nextApiStart = content.length();
+
+		        if (apiMatcher.find()) {
+		            nextApiStart = apiMatcher.start();
+		            apiMatcher.region(apiMatcher.start(), content.length());
 		        }
 
-		        functionMap.putIfAbsent(functionName, new ArrayList<>());
-		        functionMap.get(functionName).add(apiAndAddress);
+		        Matcher addressMatcher = addressPattern.matcher(content.substring(apiEnd, nextApiStart));
+		        while (addressMatcher.find()) {
+		            String address = addressMatcher.group(1);
+		            String functionName = addressMatcher.group(2);
+
+		            functionMap.putIfAbsent(functionName, new LinkedHashMap<>());
+		            functionMap.get(functionName).putIfAbsent(apiName, new ArrayList<>());
+		            functionMap.get(functionName).get(apiName).add(address);
+		        }
+		    }
+
+		    Matcher singleKeywordMatcher = singleKeywordPattern.matcher(content);
+		    while (singleKeywordMatcher.find()) {
+		        String ruleName = singleKeywordMatcher.group(1); 
+		        String address = singleKeywordMatcher.group(2);  
+			String functionName = singleKeywordMatcher.group(3);
+
+		        functionMap.putIfAbsent(functionName, new LinkedHashMap<>());
+		        functionMap.get(functionName).putIfAbsent(ruleName, new ArrayList<>());
+		        functionMap.get(functionName).get(ruleName).add(address);
+		    }
+
+		    Matcher keywordGroupMatcher = keywordGroupPattern.matcher(content);
+		    while (keywordGroupMatcher.find()) {
+		        String groupName = keywordGroupMatcher.group(1); 
+		        String address = keywordGroupMatcher.group(2);
+		        String functionName = keywordGroupMatcher.group(3);
+
+		        functionMap.putIfAbsent(functionName, new LinkedHashMap<>());
+		        functionMap.get(functionName).putIfAbsent(groupName, new ArrayList<>());
+		        functionMap.get(functionName).get(groupName).add(address);
 		    }
 
 		    StringBuilder sb = new StringBuilder();
-		    functionMap.forEach((funcName, details) -> {
+		    functionMap.forEach((funcName, itemsMap) -> {
 		        sb.append(funcName).append("\n");
-		        details.forEach(detail -> sb.append("    ").append(detail).append("\n"));
+		        itemsMap.forEach((name, addresses) -> {
+		            addresses.forEach(address -> sb.append("    ").append(name).append(" : ").append(address).append("\n"));
+		        });
 		    });
 
 		    textArea.setText(sb.toString());
