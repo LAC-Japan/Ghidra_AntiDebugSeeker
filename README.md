@@ -23,6 +23,10 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
   <img src="pictures/Ghidra_AntiDebugSeeker.gif" alt="AntiDebugSeeker" width="600"/>
 </p>
 
+## Requirements
+
+Ghidra Version 11.01
+
 ## Files Required to Run the Program  
 
  1. AntiDebugSeeker.java (Ghidra Script)/    
