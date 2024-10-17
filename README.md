@@ -25,7 +25,7 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
 
 ## Requirements
 
-Ghidra Version 11.01
+Ghidra Version 11.0.1  
 
 ## Files Required to Run the Program  
 
