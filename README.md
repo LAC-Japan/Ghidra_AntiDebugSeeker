@@ -26,6 +26,7 @@ For packed malware, running this plugin after unpacking and fixing the Import Ad
 ## Requirements
 
 Ghidra Version 11.0.1  
+(For ghidra_11.0.1_AntiDebugSeeker.zip)  
 
 ## Files Required to Run the Program  
 
